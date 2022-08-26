@@ -6,6 +6,11 @@ This is two quick samples
   
 After  ```ng build``` I copied all the dist files into the node app's public folder.
 
+To run this:
+1. Run ```ng build``` from within the front2 folder.
+2. Copy the contents of dist/front2 into the backend/public folder.
+3. Run ```npm start```. Do not run the angular server/app! Everything is served from the node app.
+
 Then note the main app.js. It always returns index.js for regular html page requests; see the app.get call below:
 
 ```js
