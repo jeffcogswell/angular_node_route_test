@@ -4,7 +4,7 @@ This is two quick samples
   
 After  ```ng build``` I copied all the dist files into the node app's public folder.
 
-Then note the main app.js. It always returns index.js for regular html page requests:
+Then note the main app.js. It always returns index.js for regular html page requests; see the app.get call below:
 
 ```js
 var express = require('express');
