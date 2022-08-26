@@ -4,8 +4,6 @@ This is two quick samples
 
 **The idea is that regardless of path, we always return index.html, and routing always works, even when a full path is requested!** The browser-side angular library handles it correctly.
   
-After  ```ng build``` I copied all the dist files into the node app's public folder.
-
 To run this:
 1. Run ```ng build``` from within the front2 folder.
 2. Copy the contents of dist/front2 into the backend/public folder.
