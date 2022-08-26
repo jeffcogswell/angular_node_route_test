@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-<b>app.get('*', function(req, res, next) {
+<b style="color:darkred">app.get('*', function(req, res, next) {
     res.sendFile('index.html', {root: path.join(__dirname, 'public') });
 });
 </b>
