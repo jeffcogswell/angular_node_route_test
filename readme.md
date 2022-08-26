@@ -2,7 +2,7 @@ This is two quick samples
 * A router demo in Angular 
 * A VERY simple node express app that for any HTML request, regardless of path, it *always* returns index.html.
 
-**The idea is that regardless of path, we always return index.html, and routing always works!**
+**The idea is that regardless of path, we always return index.html, and routing always works, even when a full path is requested!** The browser-side angular library handles it correctly.
   
 After  ```ng build``` I copied all the dist files into the node app's public folder.
 
