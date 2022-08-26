@@ -11,7 +11,7 @@ To run this:
 
 Then note the main app.js. It always returns **index.js** for regular html page requests *regardless of path*; see the app.get call below:
 
-```js
+<pre>
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
@@ -30,4 +30,4 @@ app.get('*', function(req, res, next) {
 });
 
 module.exports = app;
-```
+</pre>
