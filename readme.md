@@ -9,7 +9,7 @@ To run this:
 2. Copy the contents of dist/front2 into the backend/public folder.
 3. Run ```npm start```. Do not run the angular server/app! Everything is served from the node app.
 
-Then note the main app.js. It always returns **index.js** for regular html page requests *regardless of path*; see the app.get call below:
+Then note the main app.js. It always returns **index.html** for regular html page requests *regardless of path*; see the app.get call below:
 
 <pre>
 var express = require('express');
